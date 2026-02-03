@@ -15,16 +15,16 @@
 
         const timelineData = [
             // EDAD ANTIGUA
-            { year: 500, author: "Sun Tzu", img: "assets/img/suntzu.jpg", desc: "En El arte de la guerra establece principios como ventaja competitiva, información, liderazgo y planeación, hoy base de la estrategia empresarial.", era: "Edad Antigua", type: "ancient" },
-            { year: 490, author: "Confucio", img: "assets/img/confucio.jpg", desc: "Introduce ética, disciplina y jerarquía organizacional aplicables a la gestión moderna.", era: "Edad Antigua", type: "ancient" },
-            { year: 431, author: "Tucídides", img: "assets/img/tuci.jpg", desc: "Analiza toma de decisiones estratégicas en conflictos, hoy usado en análisis de riesgos empresariales.", era: "Edad Antigua", type: "ancient" },
-            { year: 404, author: "Jenofonte", img: "assets/img/jenofonte.jpg", desc: "Liderazgo, logística y administración de recursos en organizaciones.", era: "Edad Antigua", type: "ancient" },
-            { year: 350, author: "Aristóteles", img: "assets/img/aristoteles.jpg", desc: "Conceptos de propósito, racionalidad y organización que hoy estructuran la planeación estratégica.", era: "Edad Antigua", type: "ancient" },
-            { year: 300, author: "Kautilya", img: "assets/img/kautilya.jpg", desc: "En Arthashastra desarrolla administración del Estado y economía, similar a la gestión corporativa.", era: "Edad Antigua", type: "ancient" },
-            { year: 200, author: "Imperio Romano", img: "assets/img/roma.jpg", desc: "Desarrollo de logística, jerarquía y control organizacional aplicados hoy a supply chain.", era: "Edad Antigua", type: "ancient" },
-            { year: 100, author: "Polibio", img: "assets/img/polibio.jpg", desc: "Análisis de sistemas organizacionales y control del poder, similar al gobierno corporativo.", era: "Edad Antigua", type: "ancient" },
-            { year: 50, author: "Julio César", img: "assets/img/juliocesar.jpg", desc: "Estrategias de liderazgo, rapidez operativa y posicionamiento.", era: "Edad Antigua", type: "ancient" },
-            { year: 30, author: "Cleopatra", img: "assets/img/cleopatra.jpg", desc: "Diplomacia estratégica, alianzas y negociación, hoy clave en negocios globales.", era: "Edad Antigua", type: "ancient" },
+            { year:"500 ac", author: "Sun Tzu", img: "assets/img/suntzu.jpg", desc: "En El arte de la guerra establece principios como: ventaja competitiva, información,liderazgo y planeación, hoy base de la estrategia empresarial.", era: "Edad Antigua", type: "ancient" },
+            { year: "490 ac", author: "Confucio", img: "assets/img/confucio.jpg", desc: "Introduce ética, disciplina y jerarquía organizacional aplicables a la gestión moderna.", era: "Edad Antigua", type: "ancient" },
+            { year: "431 ac", author: "Tucídides", img: "assets/img/tuci.jpg", desc: "Analiza toma de decisiones estratégicas en conflictos, hoy usado en análisis de riesgos empresariales.", era: "Edad Antigua", type: "ancient" },
+            { year: "404 ac", author: "Jenofonte", img: "assets/img/jenofonte.jpg", desc: "Liderazgo, logística y administración de recursos en organizaciones.", era: "Edad Antigua", type: "ancient" },
+            { year: "350 ac", author: "Aristóteles", img: "assets/img/aristoteles.jpg", desc: "Conceptos de propósito, racionalidad y organización que hoy estructuran la planeación estratégica.", era: "Edad Antigua", type: "ancient" },
+            { year: "300 ac", author: "Kautilya", img: "assets/img/kautilya.jpg", desc: "En Arthashastra desarrolla administración del Estado y economía, similar a la gestión corporativa.", era: "Edad Antigua", type: "ancient" },
+            { year: "200 ac", author: "Imperio Romano", img: "assets/img/roma.jpg", desc: "Desarrollo de logística, jerarquía y control organizacional aplicados hoy a supply chain.", era: "Edad Antigua", type: "ancient" },
+            { year: "100 ac", author: "Polibio", img: "assets/img/polibio.jpg", desc: "Análisis de sistemas organizacionales y control del poder, similar al gobierno corporativo.", era: "Edad Antigua", type: "ancient" },
+            { year: "50 ac", author: "Julio César", img: "assets/img/juliocesar.jpg", desc: "Estrategias de liderazgo, rapidez operativa y posicionamiento.", era: "Edad Antigua", type: "ancient" },
+            { year: "30 ac", author: "Cleopatra", img: "assets/img/cleopatra.jpg", desc: "Diplomacia estratégica, alianzas y negociación, hoy clave en negocios globales.", era: "Edad Antigua", type: "ancient" },
             
             { year: 0, author: "", img: "", desc: "", era: "", type: "break" }, // Separador
 
