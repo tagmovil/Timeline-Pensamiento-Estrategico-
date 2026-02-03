@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pensamiento Estratégico - Galería</title>
+    <link rel="stylesheet" href="assets/style/linea.css">
+</head>
+<body>
+
+    <header>
+        <h1>Pensamiento Estratégico</h1>
+        <p class="subtitle">Lina temporal </p>
+    </header>
+
+    <main>
+        <!-- TARJETA PRINCIPAL (ESTÁTICA EN EL CENTRO) -->
+        <div class="detail-panel" id="detailPanel">
+            <div class="card-photo">
+                <img id="detailImg" src="" alt="Autor">
+                <div class="card-photo-overlay" id="detailOverlay">PERFIL ESTRATÉGICO</div>
+            </div>
+            
+            <div class="card-info">
+                <button class="close-btn" id="closeBtn">&times;</button>
+                
+                <span class="detail-era" id="detailEra">Edad Antigua</span>
+                <div class="detail-year" id="detailYear">500 a.C.</div>
+                <div class="detail-author" id="detailAuthor">Sun Tzu</div>
+                
+                <p class="detail-desc" id="detailDesc">En El arte de la guerra establece principios como ventaja competitiva, información, liderazgo y planeación, hoy base de la estrategia empresarial.</p>
+
+                <div class="card-nav">
+                    <button class="nav-btn" id="prevBtn">
+                        &#8592; <span>Anterior</span>
+                    </button>
+                    <span class="counter-badge" id="counterBadge">1/20</span>
+                    <button class="nav-btn" id="nextBtn">
+                        <span>Siguiente</span> &#8594;
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- LÍNEA DE TIEMPO (ABAJO) -->
+        <div class="timeline-wrapper">
+            <div class="timeline-container" id="timelineContainer">
+                <div class="timeline-track" id="timelineTrack">
+                    <!-- Nodos generados por JS -->
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="assets/js/linea.js"></script>
+</body>
+</html>
