@@ -79,3 +79,6 @@ El desarrollo del pensamiento estratégico se da en varias etapas:
 |2010 |	Eric Ries |	Lean Sartup: adaptación rápida al mercado.|
 |2015	| Industria 4.0 |	Digitalización, automatización y estrategia tecnológica.|
 |2020 |	Transformación digital global |	Estrategia basada en datos, IA y competitividad empresarial. |
+
+
+descarge de manera local y abrir el archivo index.html
